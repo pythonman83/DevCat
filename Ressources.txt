@@ -1,0 +1,16 @@
+Images libres de droits :
+https://www.pexels.com/fr-fr/
+
+Compresser des images en ligne :
+https://www.img2go.com/fr/compresser-image
+
+Pour le lien js du site :
+https://cdnjs.com/libraries/font-awesome/5.15.4
+
+Icônes :
+https://www.w3schools.com/icons/fontawesome_icons_webapp.asp
+
+Site en ligne exemple :
+https://jeancatdev.com/
+
+Pour voir un site exemple : jeancatdev
