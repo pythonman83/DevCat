@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Création d'un site Web de portfolio personnel réactif à l'aide de HTML CSS et JavaScript avec la possibilité de switcher entre le mode clair et le mode sombre.">
+  <meta name="author" content="Jean-Claude Lugo, formateur informatique MODE 83">
+  <meta name="copyright" content="Jean-Claude Lugo, formateur informatique MODE 83">
+  <meta name="robots" content="index, follow">
+
+  <link rel="icon" type="image/x-icon" href="images/hero1.jpg">
+
+  <title> Mon portfolio </title>
+
+  <!-- ===== Fichiers CSS.  ===== -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/skins/color-1.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!-- ===== Fichiers CSS.  ===== -->
+
+  
+  <!-- ====== Sélecteur de style. ====== -->
+  <link rel="stylesheet" href="css/skins/color-1.css" class="alternate-style" title="color-1" disabled>
+  <link rel="stylesheet" href="css/skins/color-2.css" class="alternate-style" title="color-2" disabled>
+  <link rel="stylesheet" href="css/skins/color-3.css" class="alternate-style" title="color-3" disabled>
+  <link rel="stylesheet" href="css/skins/color-4.css" class="alternate-style" title="color-4" disabled>
+  <link rel="stylesheet" href="css/skins/color-5.css" class="alternate-style" title="color-5" disabled>
+  <link rel="stylesheet" href="css/style-switcher.css">
+  <!-- ====== Sélecteur de style. ====== -->
+
+</head>
+
+<body>
+
+  <!-- ===== Début du conteneur principal de la page. ===== -->
+  <div class="main-container">
+
+    <!-- ===== Début de la barre de navigation latérale. ===== -->
+    <div class="aside">
+
+      <div class="logo">
+        <a href="https://mode83.net/site/" target="_blank">
+          <span>M</span>ode83
+        </a>
+      </div>
+
+      <div class="nav-toggler">
+        <span></span>
+      </div>
+
+      <ul class="nav">
+        <li>
+          <a href="#home" class="active">
+            <i class="fa fa-home"></i> Accueil
+          </a>
+        </li>
+        <li>
+          <a href="#about">
+            <i class="fa fa-user"></i> À propos de moi
+          </a>
+        </li>
+        <li>
+          <a href="#services">
+            <i class="fa fa-list"></i>Mes services
+          </a>
+        </li>
+        <li>
+          <a href="#portfolio">
+            <i class="fa fa-briefcase"></i>Mes projets
+          </a>
+        </li>
+        <li>
+          <a href="#contact">
+            <i class="fa fa-comments"></i>Contact
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- ===== Fin de la barre de navigation latérale. ===== -->
+
+    <!-- ===== Début du contenu de la page. ===== -->
+    <div class="main-content">
+
+      <!-- ===== Début de la page d'accueil du portfolio. ===== -->
+      <section class="home active section" id="home"> 
+        <div class="container">
+          <div class="row">
+            <div class="home-info padd-15">
+              <h3 class="hello">
+                Bonjour, je me nomme 
+                <span class="name">Jean-Claude Lugo</span>
+              </h3>
+              <h3 class="my-profession">
+                Je suis un
+                <span class="typing">
+                  Formateur en langages informatiques
+                </span>
+              </h3>
+              <p>
+                Je suis un concepteur Web avec une vaste expérience depuis plus de 10 ans. Mon dommaine d'expertise est la création et la conception de sites Web, la conception graphique, la programmation en Python et bien d'autres choses en relation avec le numérique...
+              </p>
+              <a href="CV/CV Formateur Jean-Claude Lugo.docx" class="btn" style="background-color: red; color:#000;font-weight: bold;">
+                Télécharger mon CV
+              </a>
+            </div>
+            <div class="home-img padd-15">
+              <img src="images/hero1.jpg" alt="Photo personnel">
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ===== Fin de la page d'accueil du portfolio. ===== -->
+
+
+      <!-- ===== Début de la partie 'À propos de moi' ===== -->
+      <section class="about section" id="about"> 
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>À propos de moi</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="about-content padd-15">
+              <div class="row">
+                <div class="about-text padd-15">
+                  <h3>
+                    Je suis Jean-Claude Lugo <span>Développeur Web
+
+                    </span>
+                  </h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quo ea commodi autem eius id error. Corporis inventore adipisci hic sequi! Blanditiis architecto reprehenderit rerum assumenda, illum aliquam quae dolore nobis laudantium incidunt maiores harum officiis animi commodi! Ipsam exercitationem molestias, non et velit facilis cupiditate, ducimus, dolor harum explicabo cum necessitatibus obcaecati minima dignissimos.</p>
+                </div>
+              </div>
+
+              <!-- ==== Début de la partie informations ===== -->
+              <div class="row">
+                <div class="personal-info padd-15">
+                  <div class="row">
+                    <div class="info-item padd-15">
+                      <p>Né le : <span>28 Juillet 1979</span></p>
+                    </div>
+                    <div class="info-item padd-15">
+                      <p>Àge : <span>45</span></p>
+                    </div>
+                    <div class="info-item padd-15">
+                      <p>Site Web : 
+                        <span>
+                          <a href="https://jeancatdev.com/" target="_blank">
+                            https://jeancatdev.com/
+                          </a>
+                          
+                        </span>
+                      </p>
+                    </div>
+                    <div class="info-item padd-15">
+                      <p>
+                        Mail : 
+                        <span>jeanclaude.lugo@mode83.net</span>
+                      </p>
+                    </div>
+                    <div class="info-item padd-15">
+                      <p>Niveau : <span>MASTER 3 (Bac+6) </span></p>
+                    </div>
+                    <div class="info-item padd-15">
+                      <p>Télépnone : <span>06 40 51 02 08</span></p>
+                    </div>
+                    <div class="info-item padd-15">
+                      <p>Adresse : <span>Draguignan</span></p>
+                    </div>
+                    <div class="info-item padd-15">
+                      <p>
+                        Auto-entrepreneur : 
+                        <span>Disponible</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="buttons padd-15">
+                      <a href="#contact" data-section-index="1" class="btn hire-me" style="background-color: red; color:#000;font-weight: bold;">
+                        Contactez-moi
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="skills padd-15">
+                  <div class="row">
+                    <div class="skill-item padd-15">
+                      <h5>JAVASCRIPT</h5>
+                      <div class="progress">
+                        <div class="progress-in" style="width: 85%;"></div>
+                        <div class="skill-percent">85%</div>
+                      </div>
+                    </div>
+                    <div class="skill-item padd-15">
+                      <h5>PHP/MySQL</h5>
+                      <div class="progress">
+                        <div class="progress-in" style="width: 90%;"></div>
+                        <div class="skill-percent">90%</div>
+                      </div>
+                    </div>
+                    <div class="skill-item padd-15">
+                      <h5>HTML/CSS</h5>
+                      <div class="progress">
+                        <div class="progress-in" style="width: 95%;"></div>
+                        <div class="skill-percent">95%</div>
+                      </div>
+                    </div>
+                    <div class="skill-item padd-15">
+                      <h5>BOOTSTRAP</h5>
+                      <div class="progress">
+                        <div class="progress-in" style="width: 85%;"></div>
+                        <div class="skill-percent">85%</div>
+                      </div>
+                    </div>
+                    <div class="skill-item padd-15">
+                      <h5>PYTHON</h5>
+                      <div class="progress">
+                        <div class="progress-in" style="width: 95%;"></div>
+                        <div class="skill-percent">95%</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- ==== Fin de la partie informations ===== -->
+
+              <!-- === Début de la partie étude et expériences === -->
+              <div class="row">
+                <div class="education padd-15">
+                  <h3 class="title">Études</h3>
+                  <div class="row">
+                    <div class="timeline-box padd-15">
+                      <div class="timeline shadow-dark">
+                        <!-- ===== timeline item ===== -->
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h3 class="timeline-date">
+                            <i class="fa fa-calendar"></i> 2013 - 2015
+                          </h3>
+                          <h4 class="timeline-title">
+                            Master 3 en informatique
+                          </h4>
+                          <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, maiores. Facere, minus? Quam minus autem quidem similique dignissimos cumque dolorum quis optio blanditiis, doloremque veritatis.</p>
+                        </div>
+                             <!--  élément de la chronologie  -->
+                             <div class="timeline-item">
+                              <div class="circle-dot"></div>
+                              <h3 class="timeline-date">
+                                <i class="fa fa-calendar"></i> 2010 - 2012
+                              </h3>
+                              <h4 class="timeline-title">
+                                Master 2 en informatique
+                              </h4>
+                              <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, maiores. Facere, minus? Quam minus autem quidem similique dignissimos cumque dolorum quis optio blanditiis, doloremque veritatis.</p>
+                            </div>
+                                 <!--  élément de la chronologie  -->
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h3 class="timeline-date">
+                            <i class="fa fa-calendar"></i> 2007 - 2009
+                          </h3>
+                          <h4 class="timeline-title">
+                            Master en informatique
+                          </h4>
+                          <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, maiores. Facere, minus? Quam minus autem quidem similique dignissimos cumque dolorum quis optio blanditiis, doloremque veritatis.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="experience padd-15">
+                  <h3 class="title">Expériences</h3>
+                  <div class="row">
+                    <div class="timeline-box padd-15">
+                      <div class="timeline shadow-dark">
+                        <!--  élément de la chronologie  -->
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h3 class="timeline-date">
+                            <i class="fa fa-calendar"></i> 2016
+                          </h3>
+                          <h4 class="timeline-title">
+                            Formateur en langages informatiques
+                          </h4>
+                          <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, maiores. Facere, minus? Quam minus autem quidem similique dignissimos cumque dolorum quis optio blanditiis, doloremque veritatis.</p>
+                        </div>
+                             <!--  élément de la chronologie  -->
+                             <div class="timeline-item">
+                              <div class="circle-dot"></div>
+                              <h3 class="timeline-date">
+                                <i class="fa fa-calendar"></i> 2013 - 2015
+                              </h3>
+                              <h4 class="timeline-title">Développeur Intégrateur Web</h4>
+                              <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, maiores. Facere, minus? Quam minus autem quidem similique dignissimos cumque dolorum quis optio blanditiis, doloremque veritatis.</p>
+                            </div>
+                                 <!--  élément de la chronologie  -->
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h3 class="timeline-date">
+                            <i class="fa fa-calendar"></i> 2010 - 2012
+                          </h3>
+                          <h4 class="timeline-title">Développeur Web full-stack</h4>
+                          <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, maiores. Facere, minus? Quam minus autem quidem similique dignissimos cumque dolorum quis optio blanditiis, doloremque veritatis.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- === Fin de la partie étude et expériences === -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ===== Fin de la partie 'À propos de moi' ===== -->
+
+
+      <!-- ===== Début de la partie 'Mes services' ===== -->
+      <section class="service section" id="services">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>Mes services</h2>
+            </div>
+          </div>
+          <div class="row">
+            <!-- ===== Début d'un de mes services. ====== -->
+            <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="icon">
+                  <i class="fa fa-mobile-alt"></i>
+                </div>
+                <h4>Applications mobiles</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil velit ab itaque.</p>
+              </div>
+            </div>
+            <!-- ===== Fin d'un de mes services. ====== -->
+
+
+             <!-- ===== Début d'un de mes services. ====== -->
+             <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="icon">
+                  <i class="fa fa-laptop-code"></i>
+                </div>
+                <h4>Création de sites Web</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil velit ab itaque.</p>
+              </div>
+            </div>
+            <!-- ===== Fin d'un de mes services. ====== -->
+
+
+             <!-- ===== Début d'un de mes services. ====== -->
+             <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="icon">
+                  <i class="fa fa-palette"></i>
+                </div>
+                <h4>Web Design</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil velit ab itaque.</p>
+              </div>
+            </div>
+            <!-- ===== Fin d'un de mes services. ====== -->
+
+
+             <!-- ===== Début d'un de mes services. ====== -->
+             <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="icon">
+                  <i class="fa fa-gamepad"></i>
+                </div>
+                <h4>Création de jeux</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil velit ab itaque.</p>
+              </div>
+            </div>
+            <!-- ===== Fin d'un de mes services. ====== -->
+
+
+             <!-- ===== Début d'un de mes services. ====== -->
+             <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="icon">
+                  <i class="fa fa-search"></i>
+                </div>
+                <h4>Référencement Web SEO</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil velit ab itaque.</p>
+              </div>
+            </div>
+            <!-- ===== Fin d'un de mes services. ====== -->
+
+
+             <!-- ===== Début d'un de mes services. ====== -->
+             <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="icon">
+                  <i class="fa fa-id-card"></i>
+                </div>
+                <h4>Création de site E-commerce</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil velit ab itaque.</p>
+              </div>
+            </div>
+            <!-- ===== Fin d'un de mes services. ====== -->
+          </div>
+        </div>
+      </section>
+      <!-- ===== Fin de la partie 'Mes services' ===== -->
+
+
+      <!-- ===== Début de la partie 'Mes projets'. ===== -->
+      <section class="portfolio section" id="portfolio">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>Mes projets</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="portfolio-heading padd-15">
+              <h2>Mes dernières réalisations :</h2>
+            </div>
+          </div>
+
+          <div class="row">
+            <!-- ====== Début d'une des images projet ====== -->
+            <div class="portfolio-item padd-15">
+               <div class="portfolio-item-inner shadow-dark">
+                   <div class="portfolio-img">
+                      <img src="images/portfolio/portfolio-1.jpg" alt="Image d'une des réalisations">
+                    </div>
+                </div>
+            </div>
+            <!-- ====== Fin d'une des images projet ====== -->
+
+            
+             <!-- ====== Début d'une des images projet ====== -->
+             <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/portfolio-2.jpg" alt="Image d'une des réalisations">
+                </div>
+              </div>
+            </div>
+            <!-- ====== Fin d'une des images projet ====== -->
+
+
+             <!-- ====== Début d'une des images projet ====== -->
+             <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/portfolio-3.jpg" alt="Image d'une des réalisations">
+                </div>
+              </div>
+            </div>
+            <!-- ====== Fin d'une des images projet ====== -->
+
+
+             <!-- ====== Début d'une des images projet ====== -->
+             <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                      <img src="images/portfolio/portfolio-4.jpg" alt="Image d'une des réalisations">
+                  </div>
+              </div>
+          </div>
+          <!-- ====== Fin d'une des images projet ====== -->
+
+
+             <!-- ====== Début d'une des images projet ====== -->
+             <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/portfolio-5.jpg" alt="Image d'une des réalisations">
+                </div>
+              </div>
+            </div>
+            <!-- ====== Fin d'une des images projet ====== -->
+
+
+             <!-- ====== Début d'une des images projet ====== -->
+             <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/portfolio-6.jpg" alt="Image d'une des réalisations">
+                </div>
+              </div>
+            </div>
+            <!-- ====== Fin d'une des images projet ====== -->
+          </div>
+
+        </div>
+
+      </section>
+      <!-- ===== Fin de la partie 'Mes projets' ===== -->
+
+
+      <!-- ===== Début de la partie 'Contact' ===== -->
+      <section class="contact section" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>Contactez-moi</h2>
+            </div>
+          </div>
+          <h3 class="contact-title padd-15">
+            Vous avez des questions à me poser ?
+          </h3>
+          <h4 class="contact-sub-title padd-15">
+            JE SUIS À VOTRE ÉCOUTE
+          </h4>
+          <div class="row flex-container">
+            <!-- Début - Téléphone -->
+            <div class="contact-info-item card">
+                <div class="icon"><i class="fa fa-phone"></i></div>
+                <h4 style="color:#000">Appelez-moi au :</h4>
+                <p style="color:#000">06 40 51 02 08</p>
+            </div>
+            <!-- Fin - Téléphone -->
+        
+            <!-- Début - Adresse -->
+            <div class="contact-info-item card">
+                <div class="icon"><i class="fa fa-map-marker-alt"></i></div>
+                <h4 style="color:#000">Lieu de résidence :</h4>
+                <p style="color:#000">Draguignan</p>
+            </div>
+            <!-- Fin - Adresse -->
+        
+            <!-- Début - mail -->
+            <div class="contact-info-item card">
+                <div class="icon"><i class="fa fa-envelope"></i></div>
+                <h4 style="color:#000">Mail :</h4>
+                <p style="color:#000">jeanclaude.lugo@gmail.com</p>
+            </div>
+            <!-- Fin - mail -->
+
+            <!-- Début - Site Web -->
+            <div class="contact-info-item card">
+                <div class="icon"><i class="fa fa-globe-europe"></i></div>
+                <h4 style="color:#000">Site Web</h4>
+                <p style="color:#000">
+                    <a href="https://jeancatdev.com/" target="_blank">
+                        https://jeancatdev.com/
+                    </a>
+                </p>
+            </div>
+            <!-- Fin - Site Web -->
+        </div>
+        
+          <h3 class="contact-title padd-15">
+            ENVOYEZ-MOI UN MAIL
+          </h3>
+          <h4 class="contact-sub-title padd-15">
+            JE SUIS TRÈS RÉACTIF AUX MESSAGES
+          </h4>
+
+          <!-- ====== Début du formulaire de contact ====== -->
+          <div class="row">
+            <div class="card1">
+                <div class="contact-form padd-15">
+                    <div class="row">
+                        <!-- Nom -->
+                        <div class="form-item col-6 padd-15">
+                            <div class="form-group">
+                                <label for="name" style="cursor: pointer;">
+                                  Nom : 
+                                  <span style="color: red;">*</span>
+                                </label>
+                                <input type="text" id="name" class="form-control" placeholder="Entrez votre nom ici..." required>
+                            </div>
+                        </div>
+                        <!-- Nom -->
+        
+                        <!-- Mail -->
+                        <div class="form-item col-6 padd-15">
+                            <div class="form-group">
+                                <label for="email" style="cursor: pointer;">
+                                  Mail :
+                                  <span style="color: red;">*</span>
+                                </label>
+                                <input type="email" id="email" class="form-control" placeholder="Entrez votre mail ici..." required>
+                            </div>
+                        </div>
+                        <!-- Mail -->
+                    </div>
+        
+                    <div class="row">
+                        <!-- Sujet -->
+                        <div class="form-item col-12 padd-15">
+                            <div class="form-group">
+                                <label for="subject" style="cursor: pointer;">
+                                  Sujet :
+                                  <span style="color: red;">*</span>
+                                </label>
+                                <input type="text" id="subject" class="form-control" placeholder="Entrez l'intitulé de votre message ici...">
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="row">
+                        <!-- Message -->
+                        <div class="form-item col-12 padd-15">
+                            <div class="form-group">
+                                <label for="message" style="cursor: pointer;">
+                                  Message :
+                                  <span style="color: red;">*</span>
+                                </label>
+                                <textarea id="message" class="form-control" placeholder="Entrez le contenu de votre message ici..." required></textarea>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="row">
+                        <!-- Bouton Envoyer -->
+                        <div class="form-item col-12 padd-15">
+                            <button type="submit" class="btn" style="background-color: red; color:#000;font-weight: bold;">
+                              Envoyer le message
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ====== Fin du formulaire de contact ====== -->
+        </div>
+      </section>
+      <!-- ===== Fin de la partie 'Contact' ===== -->
+    </div>
+    <!-- ===== Fin du contenu de la page. ===== -->
+  </div>
+  <!-- ===== Fin du conteneur principal de la page. ===== -->
+
+
+  <!-- ===== Début du sélecteur de couleur de la page. ===== -->
+  <div class="style-switcher">
+    <div class="style-switcher-toggler s-icon">
+      <i class="fas fa-cog fa-spin"></i>
+    </div>
+    <div class="day-night s-icon">
+      <i class="fas "></i>
+    </div>
+    <h4>Couleurs du thème</h4>
+    <div class="colors">
+      <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+      <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+      <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+      <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+      <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+    </div>
+  </div>
+  <!-- ===== Fin du sélecteur de couleur de la page. ===== -->
+
+  <!-- ===== JS Files ===== -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
+  <script src="js/script.js"></script>
+  <script src="js/style-switcher.js"></script>
+
+  
+
+  
+</body>
+</html>
